@@ -4,8 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
@@ -45,7 +47,11 @@ public class Header extends AbstractUIObject {
 	public List<String> getTopListNames() {
 		return Arrays.asList(topListLinks.getText().split("\\r?\\n"));
 	}
-	
+
+	public void clickLink(String linkString) {
+		driver.findElement(By.linkText(linkString)).click();
+	}
+
 	
 
 }

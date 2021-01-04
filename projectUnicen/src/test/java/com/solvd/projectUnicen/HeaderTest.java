@@ -1,12 +1,15 @@
-package com.projectUnicen;
+package com.solvd.projectUnicen;
 
 import com.qaprosoft.carina.core.foundation.AbstractTest;
 import com.qaprosoft.carina.core.foundation.utils.ownership.MethodOwner;
+import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
 import com.solvd.projectUnicen.gui.components.*;
 import com.solvd.projectUnicen.gui.pages.HomePage;
 
 import java.util.List;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -38,6 +41,19 @@ public class HeaderTest extends AbstractTest {
 		
 		List<String> names = header.getTopListNames();
 		Assert.assertTrue(names.contains(EXPECTED_TEXT_1));
+		
+	}
+	
+	
+	@Test
+	@MethodOwner(owner ="Magali Boulanger")
+	public void testHeaderIngresantesButton() {
+
+		HomePage hp = new HomePage(getDriver());
+		hp.open();
+		Header header = hp.getHeader();
+		header.clickLink("Ingresantes");
+		Assert.assertTrue(getDriver().getCurrentUrl().equals("https://preingreso.exa.unicen.edu.ar/"));
 		
 	}
 	
