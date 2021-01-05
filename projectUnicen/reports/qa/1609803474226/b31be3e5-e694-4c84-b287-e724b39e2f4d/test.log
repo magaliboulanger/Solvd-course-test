@@ -1,0 +1,19 @@
+[2021-01-04 08:38:08] [IMessager.java] [1] [INFO]  TEST [Default test - testHeaderText] STARTED at [20:38:08 2021-01-04]
+[2021-01-04 08:38:08] [AbstractCapabilities.java] [1] [INFO] Set Chrome language to: en_US
+[2021-01-04 08:38:10] [DesktopFactory.java] [1] [INFO] Browser window was maximized
+[2021-01-04 08:38:10] [CryptoTool.java] [1] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-04 08:38:10] [CryptoTool.java] [1] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-04 08:38:10] [CryptoTool.java] [1] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-04 08:38:10] [CryptoTool.java] [1] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-04 08:38:10] [CryptoTool.java] [1] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-04 08:38:10] [CryptoTool.java] [1] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-04 08:38:10] [CryptoTool.java] [1] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-04 08:38:10] [CryptoTool.java] [1] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-04 08:38:10] [CryptoTool.java] [1] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-04 08:38:10] [CryptoTool.java] [1] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-04 08:38:10] [CryptoTool.java] [1] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-04 08:38:10] [CryptoTool.java] [1] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-04 08:38:10] [CryptoTool.java] [1] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-04 08:38:10] [IMessager.java] [1] [INFO] INFO: url 'https://www.exa.unicen.edu.ar/es' is being opened...
+[2021-01-04 08:38:14] [DriverListener.java] [1] [INFO] INFO: url 'https://www.exa.unicen.edu.ar/es' is opened.
+[2021-01-04 08:38:15] [IMessager.java] [1] [INFO]  TEST [Default test - testHeaderText] PASSED at [20:38:15 2021-01-04]

@@ -11,23 +11,22 @@ import com.qaprosoft.carina.core.gui.AbstractUIObject;
 
 public class Footer extends AbstractUIObject { 
 
-	@FindBy(xpath="//*[@id=\"views_slideshow_cycle_main_carrousel-block\"]")
-	private List<ExtendedWebElement> imageLinks;
+	@FindBy(xpath="//*[@id='views_slideshow_cycle_main_carrousel-block']")
+	private ExtendedWebElement imageLinks;
 	
-	@FindBy(xpath="//*[@id=\"block-block-1\"]/p")
-	private List<ExtendedWebElement> links;
+	@FindBy(xpath="//*[@id='block-block-1']/p")
+	private ExtendedWebElement contactInformationList;
 
 	public Footer(WebDriver driver,SearchContext searchContext) {
 		super(driver, searchContext);
-	
 	}
 
-	public List<ExtendedWebElement> getImageLinks() {
+	public ExtendedWebElement getImageLinks() {
 		return imageLinks;
 	}
 
-	public List<ExtendedWebElement> getLinks() {
-		return links;
+	public String getContactInformationList() {
+		return contactInformationList.getText();
 	}
 	
 	

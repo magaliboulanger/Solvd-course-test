@@ -47,13 +47,15 @@ public class HeaderTest extends AbstractTest {
 	
 	@Test
 	@MethodOwner(owner ="Magali Boulanger")
-	public void testHeaderIngresantesButton() {
+	public void testHeaderEstudiantesButton() {
 
 		HomePage hp = new HomePage(getDriver());
 		hp.open();
 		Header header = hp.getHeader();
-		header.clickLink("Ingresantes");
-		Assert.assertTrue(getDriver().getCurrentUrl().equals("https://preingreso.exa.unicen.edu.ar/"));
+		header.clickLink(EXPECTED_TEXT_2);
+		
+		
+		Assert.assertTrue(getDriver().getCurrentUrl().equals("https://www.exa.unicen.edu.ar/es/estudiantes"));
 		
 	}
 	
