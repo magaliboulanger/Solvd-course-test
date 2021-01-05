@@ -11,6 +11,7 @@ import org.openqa.selenium.support.FindBy;
 
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
 import com.qaprosoft.carina.core.gui.AbstractUIObject;
+import com.solvd.projectUnicen.gui.pages.SearchPage;
 
 public class Header extends AbstractUIObject {
 
@@ -22,6 +23,13 @@ public class Header extends AbstractUIObject {
 	
 	@FindBy(xpath="//*[@id='header']/div[2]/div[2]")
 	private ExtendedWebElement topListLinks;
+	
+	
+	@FindBy(name = "op")
+	private ExtendedWebElement searchButton;
+	
+	@FindBy(name = "search-block-form")
+	private ExtendedWebElement searchInputText;
 	
 	@FindBy(xpath="//*[@id='block-menu-block-4']/div/ul")
 	private List<MenuItem> navbar;
@@ -51,6 +59,12 @@ public class Header extends AbstractUIObject {
 		driver.findElement(By.linkText(linkString)).click();
 	}
 
-	
+	public SearchPage search(String toSearch){
+        
+		searchInputText.type(toSearch);
+        searchButton.click();
+        return new SearchPage(driver);
+    }
+
 
 }

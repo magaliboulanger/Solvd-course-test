@@ -1,0 +1,26 @@
+[2021-01-05 12:56:08] [IMessager.java] [17] [INFO]  TEST [U02 - Default test - resultSearch [L0002]] STARTED at [00:56:08 2021-01-05]
+[2021-01-05 12:56:08] [AbstractCapabilities.java] [17] [INFO] Set Chrome language to: en_US
+[2021-01-05 12:56:10] [DesktopFactory.java] [17] [INFO] Browser window was maximized
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:56:10] [IMessager.java] [17] [INFO] INFO: url 'https://www.exa.unicen.edu.ar/es' is being opened...
+[2021-01-05 12:56:12] [DriverListener.java] [17] [INFO] INFO: url 'https://www.exa.unicen.edu.ar/es' is opened.
