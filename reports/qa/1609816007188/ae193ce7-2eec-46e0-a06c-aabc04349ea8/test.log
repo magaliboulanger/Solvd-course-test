@@ -1,0 +1,54 @@
+[2021-01-05 12:07:18] [IMessager.java] [17] [INFO]  TEST [U02 - Default test - resultSearch [L0002]] STARTED at [00:07:18 2021-01-05]
+[2021-01-05 12:07:18] [AbstractCapabilities.java] [17] [INFO] Set Chrome language to: en_US
+[2021-01-05 12:07:20] [DesktopFactory.java] [17] [INFO] Browser window was maximized
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [CryptoTool.java] [17] [ERROR] File '.\src\main\resources\crypto.key' does not exist
+[2021-01-05 12:07:20] [IMessager.java] [17] [INFO] INFO: url 'https://www.exa.unicen.edu.ar/es' is being opened...
+[2021-01-05 12:07:21] [DriverListener.java] [17] [INFO] INFO: url 'https://www.exa.unicen.edu.ar/es' is opened.
+[2021-01-05 12:07:22] [DriverListener.java] [17] [INFO] PASS: keys cleared in element 'searchInputText'.
+[2021-01-05 12:07:23] [DriverListener.java] [17] [INFO] PASS: keys 'rectorado' are sent to element 'searchInputText'.
+[2021-01-05 12:07:44] [ExtendedWebElement.java] [17] [ERROR] FAIL: click - waitCondition for element 'searchButton (By.id: edit-submit--2)' not satisfied!
+[2021-01-05 12:07:45] [IMessager.java] [17] [ERROR]  TEST [U02 - Default test - resultSearch [L0002]] FAILED at [00:07:45 2021-01-05] - Unable to detect element: searchButton (By.id: edit-submit--2)
+
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1404)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1356)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:501)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:487)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:478)
+com.solvd.projectUnicen.gui.components.Header.search(Header.java:65)
+com.solvd.projectUnicen.services.SearchService.search(SearchService.java:13)
+com.solvd.projectUnicen.SearchTest.resultSearch(SearchTest.java:24)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:567)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:835)
