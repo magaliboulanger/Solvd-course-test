@@ -1,3 +1,0 @@
-[2021-01-04 08:57:59] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
-[2021-01-04 08:57:59] [IMessager.java] [1] [INFO] RESULT #1: TEST [Default test - testHeaderIngresantesButton] FAIL [screenshots=./1609804664268/b2a32c08-1eed-4e8d-9cfd-ec77df387db9/report.html | log=./1609804664268/b2a32c08-1eed-4e8d-9cfd-ec77df387db9/test.log]
-[2021-01-04 08:57:59] [IMessager.java] [1] [INFO] RESULT #2: TEST [Default test - testHeaderText] PASS [screenshots=./1609804664268/539bd3e7-7e5f-4085-ac35-44498b30fa2e/report.html | log=./1609804664268/539bd3e7-7e5f-4085-ac35-44498b30fa2e/test.log]
