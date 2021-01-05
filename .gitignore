@@ -1,3 +1,7 @@
 .settings
 /target/
 /test automation/
+/target/
+.project
+/test-output/
+/reports/
