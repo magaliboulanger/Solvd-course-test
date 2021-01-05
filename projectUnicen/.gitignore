@@ -3,4 +3,5 @@ test-output
 /.settings/
 .project
 /reports/
+.classpath
 
